@@ -1,4 +1,4 @@
-- Hi IT lover's 
-- Hoping to graduate on the right yr and right time.
+- Hi IT lover's
 - i want to build or stored all of my Activites in my School.
-- i'll keep this site to track my knowledge and how far my lesson's during college days.
+- i'll keep this site to track my knowledge and what are my Lesson's
+- ps. Dont judge my work activities i'm just simple no to copy paste codes 
