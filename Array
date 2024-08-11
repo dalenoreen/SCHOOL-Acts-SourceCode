@@ -1,0 +1,31 @@
+package DSA;
+import java.util.Scanner;
+
+public class Array
+{
+  public static void main(String[] args)
+  {
+    Scanner sc = new Scanner(System.in);
+		int [][] array = new int [3][3];
+		
+		System.out.println("Enter 9 numbers for the 3x3 array:");
+		for (int i=0; i<3; i++)
+		{
+			for (int j=0; j<3; j++)
+			{
+				System.out.print("\nEnter Number: " + ((i*3) +j + 1) + ": ");
+				array[i][j] = sc.nextInt();
+			}
+		}
+		System.out.println("\nYou Entered the following number: ");
+		for (int i=0; i<3; i++)
+		{
+			for (int j=0; j<3; j++)
+			{
+				System.out.println("[" + i + "]" + "[" + j + "] = " + array[i][j]);
+			}
+			sc.close();
+		}
+	}
+	
+}
