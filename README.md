@@ -1,2 +1,4 @@
-- Hi i'm Noreen Dale B. Discar 
-- i want to build or stored all of my Activites in my School 
+- Hi i'm Noreen Dale B. Discar.
+- Hoping to graduate on the right yr and right time.
+- i want to build or stored all of my Activites in my School.
+- i'll keep this site to track my knowledge and how far my lesson's during college days.
