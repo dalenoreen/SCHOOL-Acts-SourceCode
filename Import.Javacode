@@ -1,0 +1,44 @@
+Part 1 CLASS ( BILLING )
+
+package major;
+import java.util.Scanner;
+import major.Calculator;
+public class Billing 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		Calculator calc = new Calculator();
+		double Quanty, Price, Cost;
+		
+		System.out.println(" Mr. Biglangbili's Reciept \n===========================");
+		
+		System.out.println("product: ");
+		String name = sc.next();
+		
+		System.out.println("Quanty: ");
+		Quanty = sc.nextDouble();
+		
+		System.out.println("Unit Cost: ");
+		Price = sc.nextDouble();
+		
+		System.out.println("Total cost: " + calc.Cost(Quanty,Price));
+		
+	}
+
+
+Part 2 CLASS ( Calculator )
+
+package major;
+
+public class Calculator 
+{
+	public static double Cost(double Quanty, Double Price)
+	{
+		double Cost = (Quanty*Price);
+		return Cost;
+		
+	}
+
+}
