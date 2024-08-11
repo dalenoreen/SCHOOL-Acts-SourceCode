@@ -1,4 +1,4 @@
 - Hi IT lover's
-- i want to build or stored all of my Activites in my School.
+- i want to build and stores all of my Activites in my School.
 - i'll keep this site to track my knowledge and what are my Lesson's
 - ps. Dont judge my work activities i'm just simple no to copy paste codes 
