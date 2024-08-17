@@ -1,0 +1,105 @@
+OOP Assignment _ Instruction:
+
+A. Enumerate at least 10 features of Java PL and describe them.
+B. Indicate your references.
+
+A. Enumerate at least 10 features of Java PL and describe them.
+
+	1. Simple
+		● Java is well-known for its simplicity, making it a language suitable for both
+	beginners and developers. Its syntax is simple, crisp, and easy to comprehend,
+	which adds to its image as a user-friendly programming language. According to
+	Sun Microsystems, Java is considered simple because it avoids difficult features
+	in other languages, such as explicit pointers and operator overloading, while
+	providing a uniform and clear development style. This simplicity allows
+	developers to write and maintain code more easily, increasing overall productivity
+	while decreasing the risk of mistakes.
+
+	2. Object-Oriented
+		● Object-oriented is a paradigm that streamlines software creation and
+	maintenance through structured principles. Its core concepts include objects,
+	which are instances of classes representing entities with state and behavior;
+	classes, which act as blueprints for creating objects; inheritance, which enables
+	new classes to inherit attributes and methods from existing ones; polymorphism,
+	which allows objects to be treated as instances of their parent class; and
+	abstraction, which conceals complex implementation details while presenting
+	only essential features.
+
+	3. Portable
+		● Java is portable because it allows you to carry the Java bytecode to any platform.
+	It doesn't require any implementation.
+
+	4. Platform independent
+		● Java is platform-independent, as opposed to languages such as C and C++,
+	which are translated into machine-specific code. Instead, Java employs a "write
+	once, run anywhere" technique. It does this with a software platform that works
+	on a wide range of hardware devices. The Java platform has two major
+	components: the runtime environment and the application programming interface
+	(API). Java code is converted into a platform-independent format known as
+	WORA, which may be run on several operating systems such as Windows,
+	Linux, Sun Solaris, and macOS, embodying the "Write Once, Run Anywhere"
+	(WORA) principle.
+
+	5. Secure
+		● Java is renowned for its robust security features, making it an effective tool for
+	creating secure, virus-free platforms. Its security is bolstered by several key
+	mechanisms: the absence of explicit pointers, which mitigates risks associated
+	with unauthorized memory access; execution within a virtual machine sandbox,
+	which isolates code from the underlying system; the classloader, a Java Runtime
+	Environment (JRE) component that dynamically loads classes while separating
+	those from local files and network sources to enhance security; the bytecode
+	verifier, which inspects code fragments to prevent illegal operations that could
+	breach object access rights; and the security manager, which controls access to
+	system resources like local disks. These integrated security features collectively
+	help safeguard Java applications from potential threats.
+
+	6. Robust
+		● Java is considered robust because of numerous major characteristics that
+	contribute to its robustness and dependability. It implements rigorous memory
+	management strategies to preserve stability and avoid problems. The language
+	eliminates the usage of pointers, which reduces the security concerns associated
+	with direct memory access. Java also has automated garbage collection, which
+	uses the Java Virtual Machine to effectively clear away items that are no longer
+	in use by the program. Java also contains robust exception handling and
+	type-checking features. Together, these characteristics increase Java's
+	resilience, making it a dependable choice for a variety of applications.
+
+	7. Architecture Neutral
+		● Java is called architecture-neutral because it eliminates
+	implementation-dependent features, resulting in uniform behavior across
+	platforms. While the size of basic types in languages like C might change
+	depending on the architecture—for example, the int type takes up 2 bytes in a
+	32-bit system and 4 bytes in a 64-bit system—Java preserves a fixed size for
+	primitive types. In Java, the int data type takes up 4 bytes despite whether the
+	system is 32-bit or 64-bit. This uniformity contributes to Java's "write once, run
+	anywhere" objective by assuring that Java applications act consistently across
+	diverse hardware platforms.
+
+	8. Interpreted
+		● Java is a compiled language that the Java compiler converts into
+	platform-agnostic bytecode. The Java Virtual Machine (JVM) translates and
+	converts it into native machine code, allowing for cross-platform capabilities and
+	performance improvements.
+
+	9. High Performance
+		● Java is often perceived as slower than fully compiled languages like C and C++
+	because, despite being compiled to bytecode, it still requires interpretation or
+	Just-In-Time (JIT) compilation at runtime. This added layer of execution can
+	introduce performance overhead compared to languages that compile directly to
+	native machine code. However, Java’s bytecode is relatively close to native code,
+	which helps it perform better than traditional interpreted languages. While it may
+	not match the raw speed of languages like C or C++, Java strikes a balance
+	between portability, ease of development, and performance.
+
+	10. Multi-threaded
+		● A thread in Java is a lightweight unit of execution within a program that runs
+	concurrently with other threads, allowing multiple tasks to be handled
+	simultaneously. By defining multiple threads, Java programs can efficiently
+	manage various tasks at once, leveraging the shared memory region of threads
+	to avoid the overhead of allocating separate memory for each. This shared
+	memory facilitates communication and data sharing between threads, making
+	multi-threading particularly valuable for applications that require responsiveness
+	and concurrent processing, such as multimedia and web applications.
+
+	B. Indicate your references.
+		● Link: https://www.javatpoint.com/features-of-java
