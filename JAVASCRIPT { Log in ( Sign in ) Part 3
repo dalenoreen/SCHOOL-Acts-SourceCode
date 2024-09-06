@@ -1,0 +1,23 @@
+  document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+    
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+      const rememberMe = document.getElementById("rememberMe").checked;
+
+    
+      console.log("Username/Email:", username);
+      console.log("Password:", password);
+      console.log("Remember Me:", rememberMe);
+    
+      alert("Login functionality is not implemented yet.");
+});
+
+
+  document.querySelector(".google-btn").addEventListener("click", function() {
+      alert("Google sign-in is not implemented yet.");
+});
+
+  document.querySelector(".facebook-btn").addEventListener("click", function() {
+      alert("Facebook sign-in is not implemented yet.");
+});
