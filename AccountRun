@@ -1,0 +1,62 @@
+package Activities;
+import java.util.Scanner;
+
+public class AccountRun 
+{
+	public static void main(String[] args) {
+		Account account1 = new Account();
+		Account account2 = new Account();
+		
+		account1.setBalance(150.00);
+		account2.setBalance(500.53);
+		
+		System.out.println("account1 balance: $" + account1.getBalance());
+		System.out.println("account1 balance: $" + account2.getBalance());
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter withdrawal amount for account1: ");
+		double amount1 = scanner.nextDouble();
+		account1.debit(amount1);
+		
+		System.out.println("account1 balance: $" + account1.getBalance());
+		System.out.println("account2 balance: $" + account2.getBalance());
+		
+		System.out.print("enter withdrawal amount for account2: ");
+		double amount2 = scanner.nextDouble();
+		account2.debit(amount2);
+		
+		System.out.println("account1 balance: $" + account1.getBalance());
+		System.out.println("account2 balance: $" + account2.getBalance());
+		
+		
+		
+	}
+
+}
+
+class Account
+{
+	private double balance;
+	
+	public void setBalance(double balance)
+	{
+		this.balance = balance;
+		
+	}
+	public double getBalance()
+	{
+		return balance;
+	}
+	
+	public void debit(double amount)
+	{
+		if( amount > balance)
+		{
+			System.out.println("debit amount exceeded account balance.");
+		} else {
+			balance -= amount;
+			System.out.println("subtracting " + amount + " from account balance");
+		}
+	}
+}
